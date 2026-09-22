@@ -7,7 +7,7 @@
   "avatar": "https://layrcake.dev/layrcake-mark-1024.png",
   "icon": "https://layrcake.dev/layrcake-mark-1024.png",
   "homepage": "https://layrcake.dev",
-  "repository": { "type": "git", "url": "https://github.com/xviiivxxiv/layrcake-mcp" },
+  "repository": { "type": "git", "url": "https://github.com/Layrcake-dev/layrcake-mcp" },
   "license": "UNLICENSED",
   "tags": ["mcp", "gtm", "sales", "outbound", "lead-generation", "enrichment", "email-verification", "buying-intent", "social-listening", "cold-email", "ai-agents"],
   "mcp": {
