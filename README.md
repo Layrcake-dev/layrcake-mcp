@@ -42,3 +42,19 @@ claude mcp add --transport http layrcake https://mcp.layrcake.dev/mcp
 Also listed on the [official MCP Registry](https://registry.modelcontextprotocol.io) as `dev.layrcake/layrcake`, [Glama](https://glama.ai/mcp/connectors/dev.layrcake.mcp/layrcake) and [Smithery](https://smithery.ai/servers/layrcake/layrcake).
 
 This repository holds the listing manifest for directories; the server itself is hosted and closed source. Questions: founders@layrcake.dev
+
+## Grok Build
+
+Open `/marketplace` in Grok Build, find **Layrcake**, and install it. On first connection, complete the Layrcake sign-in and consent flow in your browser; new accounts are free with 300 credits and no card. The plugin contains no API key or local executable.
+
+### Network access and permissions
+
+- `https://mcp.layrcake.dev/mcp` — Layrcake's hosted Streamable HTTP MCP endpoint. The same host serves OAuth discovery metadata at `/.well-known/oauth-protected-resource`.
+- `https://api.layrcake.dev` — Layrcake's OAuth authorization server (dynamic client registration, token issuance, refresh), discovered from the MCP metadata.
+- `https://app.layrcake.dev` — the browser sign-in and consent page, and the console where launches, replies and purchases are approved.
+
+Authentication uses your Layrcake account through browser-based OAuth 2.1 with PKCE. Grok sends the resulting bearer token to the hosted server; the server scopes every tool to your workspace. Six tools are read-only (`get_me`, `get_usage`, `get_operation`, `get_request`, `get_replies`, `get_reply`). The other thirteen are annotated destructive: seven spend prepaid credits against live data providers, three change campaign data, and three (`setup_sending`, `launch_campaign`, `reply_to_thread`) only return a preview and an approval link — nothing is bought or sent until a signed-in human approves in the console. No token or credential is bundled with this plugin.
+
+## License
+
+Proprietary. Use of the hosted service is governed by [Layrcake's terms](https://layrcake.dev/terms) and [privacy policy](https://layrcake.dev/privacy).

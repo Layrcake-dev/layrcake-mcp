@@ -1,0 +1,9 @@
+{
+  "name": "layrcake",
+  "version": "1.0.0",
+  "description": "The unified GTM API for AI agents through Layrcake's hosted MCP server: find leads and companies, enrich to verified emails, verify deliverability, detect buying intent, listen on social, provision sending, launch human-approved campaigns and handle replies. Sign in with your Layrcake account on first connect.",
+  "author": { "name": "Layrcake", "url": "https://layrcake.dev" },
+  "homepage": "https://docs.layrcake.dev/agent.html",
+  "license": "Proprietary",
+  "keywords": ["layrcake", "layrcake gtm", "layrcake mcp"]
+}
