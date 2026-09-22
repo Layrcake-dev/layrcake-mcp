@@ -1,0 +1,22 @@
+{
+  "identifier": "layrcake",
+  "name": "Layrcake",
+  "version": "1.0.0",
+  "description": "The unified GTM API for AI agents: find leads and companies, enrich to verified emails, verify deliverability, detect buying intent, listen on social, provision warmed sending, launch human-approved campaigns and handle replies. One key, prepaid credits; misses are free.",
+  "author": "Layrcake",
+  "avatar": "https://layrcake.dev/layrcake-mark-1024.png",
+  "icon": "https://layrcake.dev/layrcake-mark-1024.png",
+  "homepage": "https://layrcake.dev",
+  "repository": { "type": "git", "url": "https://github.com/xviiivxxiv/layrcake-mcp" },
+  "license": "UNLICENSED",
+  "tags": ["mcp", "gtm", "sales", "outbound", "lead-generation", "enrichment", "email-verification", "buying-intent", "social-listening", "cold-email", "ai-agents"],
+  "mcp": {
+    "type": "http",
+    "url": "https://mcp.layrcake.dev/mcp",
+    "transport": "streamable-http",
+    "auth": {
+      "type": "oauth",
+      "description": "OAuth 2.1 with dynamic client registration and PKCE. Sign in to your Layrcake account when the client prompts; new accounts are free with 300 credits, no card."
+    }
+  }
+}
