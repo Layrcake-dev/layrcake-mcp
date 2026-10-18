@@ -1,6 +1,6 @@
 # Layrcake MCP server
 
-**Layrcake** is the unified GTM API for AI agents: the whole outbound loop behind one hosted MCP server and one prepaid credit balance.
+**Layrcake** is go-to-market infrastructure for AI agents: one MCP server and API that lets Claude, ChatGPT, Cursor and Codex find leads, verify emails, read buying signals and run approved campaigns, behind one prepaid credit balance.
 
 - **Endpoint:** `https://mcp.layrcake.dev/mcp` (Streamable HTTP)
 - **Auth:** OAuth 2.1 with dynamic client registration and PKCE. Sign in when your client prompts. Free to start: 300 credits, no card.
