@@ -6,7 +6,7 @@
 - **Auth:** OAuth 2.1 with dynamic client registration and PKCE. Sign in when your client prompts. Free to start: 300 credits, no card.
 - **Docs:** https://docs.layrcake.dev · **Pricing:** https://docs.layrcake.dev/pricing.html · **Privacy:** https://layrcake.dev/privacy
 
-## Tools (19)
+## Tools (22)
 
 | Tool | What it does | Billing |
 |---|---|---|
@@ -17,6 +17,9 @@
 | `verify_email` | Two-stage deliverability check incl. catch-all analysis | per call |
 | `find_intent` | Buying signals for company domains: hiring, funding, news, job changes, tech | per signal-bearing company |
 | `find_posts` | Public social posts across LinkedIn, X, Reddit, YouTube, TikTok and more | per relevant post |
+| `check_companies` | Answer a yes/no question about each company from its own website, with the quoted evidence | per company |
+| `research_company` | Dated recent moves for one company, with sources, ranked for your goal | per call |
+| `prospect_picture` | One picture of a person, their company, or both: role, recent activity, signals | per call |
 | `setup_sending` | Provision warmed sending domains and mailboxes (quote → human approval) | credits, approved in console |
 | `create_campaign` | Draft a sequence with variables and recipients; drafts never send | free |
 | `add_leads` | Add recipients to a draft campaign through the suppression-safe importer | free |
